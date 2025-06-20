@@ -1,0 +1,41 @@
+body{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 46%, rgba(0, 212, 255, 1) 100%);
+}
+.box{
+  width: 400px;
+  height: 180px;
+background: linear-gradient(90deg, rgb(41, 171, 214) 0%, rgb(7, 233, 218) 46%, rgb(94, 9, 192) 100%);
+
+}
+.h2{
+  
+}
+input[type="date"]{    
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: cornflowerblue;
+}
+button{
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0288d1;
+color: floralwhite;
+ cursor: pointer;
+}
+button:hover {
+  background-color: #0277bd;
+}
+
+#result{
+  font-size: 20px;
+  margin-top: 15px;
+  color: gold;
+}
